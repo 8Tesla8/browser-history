@@ -1,0 +1,14 @@
+<h1>Browser history</h1>
+
+<br>
+<label> Current URL: {{currentUrl}}</label>
+
+<br>
+<label>Query param:</label> 
+<input type="text" [(ngModel)]="param"/> <br>
+
+<br>
+<button (click)="addUrlInBrowserHistory()">Add url in history</button>
+
+<br>
+<button (click)="goBack()">Go back</button>
